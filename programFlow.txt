@@ -1,0 +1,20 @@
+Flow of operations:
+    
+    start the environment - DONE
+    Preprocess input state - DONE
+    Define the model - DONE
+    Test the model with random inputs - DONE
+    Fill the replay memory - DONE
+    define the policy - DONE
+    Model training
+            start the environment - DONE
+            restore checkpoints - DONE
+            run the target model - DONE
+            calculate target q values - DONE
+            train the q model - DONE
+            copy q model params to target model every t steps - DONE
+            log the values in tensorboard
+            print episode summary - DONE
+            save the model regularly - DONE
+            (optional - record the game playing video every t steps) - DONE
+            
